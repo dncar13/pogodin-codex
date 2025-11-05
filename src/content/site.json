@@ -1,0 +1,136 @@
+{
+  "he": {
+    "siteName": "pogodin.co.il",
+    "owner": "Pogodin",
+    "role": "מפתח פרונט-אנד / מעצב UI",
+    "meta": {
+      "title": "pogodin.co.il – מפתח פרונט-אנד / מעצב UI",
+      "description": "פורטפוליו של Pogodin. אתרים ואפליקציות מהירות, נגישות ומדויקות.",
+      "ogImageAlt": "איור שחור-לבן אלכסוני עם טיפוגרפיה מודרנית."
+    },
+    "navigation": {
+      "about": "עליי",
+      "skills": "כישורים",
+      "projects": "פורטפוליו",
+      "contact": "יצירת קשר",
+      "contactCta": "דברו איתי"
+    },
+    "hero": {
+      "titleA": "היי, אני פוגודין",
+      "subtitleA": "מפתח פרונט-אנד / מעצב UI. בונה חוויות אינטרנט מהירות, נגישות ונקיות.",
+      "titleB": "יוצר אינטראקציות שמרגישות נכון",
+      "subtitleB": "קוד נקי, מיקרו-אנימציות מדויקות ועיצוב שמדבר בעד עצמו.",
+      "primaryCta": "דברו איתי",
+      "secondaryCta": "לפורטפוליו",
+      "hint": "ריחוף או לחיצה על האיור יחליפו את מצב הצבע והטקסט."
+    },
+    "band": {
+      "label": "פרויקטים חיים / תכנון מוצר / דיזיין סיסטם",
+      "cta": "לקריאה נוספת"
+    },
+    "about": {
+      "heading": "עליי",
+      "lede": "אני בונה אתרים ואפליקציות רספונסיביות עם דגש על חוויית משתמש, ביצועים והנגשה.",
+      "body": "אוהב להפוך סקיצות למוצרים חדים וברורים, עם תשומת לב לפרטים הקטנים." 
+    },
+    "servicesHeading": "איך אני עוזר",
+    "services": [
+      "אתרי תדמית ונחיתה",
+      "פיתוח פרונט-אנד לאפליקציות (SPA/SSR)",
+      "UI/UX – חוטי תיל, דיזיין-סיסטם, פרוטוטיפים",
+      "שיפור ביצועים והנגשה",
+      "ליווי טכנולוגי והטמעה"
+    ],
+    "skillsHeading": "טכנולוגיות שאני אוהב",
+    "skills": ["HTML", "CSS", "JavaScript/TypeScript", "React/Next.js", "Node בסיסי", "Git", "Figma"],
+    "midCta": {
+      "heading": "בואו נתחיל פרויקט",
+      "body": "יש לכם רעיון חי, מוצר שצריך רענון או תהליך מבולגן? נעשה סדר ביחד.",
+      "cta": "תיאום שיחה"
+    },
+    "contact": {
+      "heading": "בואו נדבר",
+      "lede": "מעדיפים מייל ישיר? contact@pogodin.co.il תמיד פתוח.",
+      "success": "ההודעה נשלחה! אחזור אליכם בהקדם.",
+      "error": "משהו השתבש. נסו שוב או כתבו לי במייל.",
+      "form": {
+        "name": "שם מלא",
+        "email": "אימייל",
+        "message": "הודעה",
+        "cta": "שליחת הודעה"
+      }
+    },
+    "social": {
+      "github": "#",
+      "linkedin": "#",
+      "email": "contact@pogodin.co.il"
+    }
+  },
+  "en": {
+    "siteName": "pogodin.co.il",
+    "owner": "Pogodin",
+    "role": "Front-end developer / UI designer",
+    "meta": {
+      "title": "pogodin.co.il – Front-end engineer & UI designer",
+      "description": "Portfolio by Pogodin. Fast, accessible and precise web experiences.",
+      "ogImageAlt": "Diagonal black and white composition with confident typography."
+    },
+    "navigation": {
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact",
+      "contactCta": "Say hello"
+    },
+    "hero": {
+      "titleA": "Hey, I'm Pogodin",
+      "subtitleA": "Front-end developer & UI designer crafting fast, accessible products.",
+      "titleB": "I design interactions that simply feel right",
+      "subtitleB": "Clean code, precise micro-animations and purposeful design.",
+      "primaryCta": "Say hello",
+      "secondaryCta": "View work",
+      "hint": "Hover, focus or press Enter on the portrait to invert the layout."
+    },
+    "band": {
+      "label": "Live products / Product strategy / Design systems",
+      "cta": "Read more"
+    },
+    "about": {
+      "heading": "About",
+      "lede": "I build responsive websites and apps with a focus on UX, performance and accessibility.",
+      "body": "I love turning sketches into sharp, opinionated products with attention to detail."
+    },
+    "servicesHeading": "How I can help",
+    "services": [
+      "Marketing and landing sites",
+      "Front-end development for apps (SPA/SSR)",
+      "UI/UX – wireframes, design systems, prototypes",
+      "Performance and accessibility optimization",
+      "Technical guidance and onboarding"
+    ],
+    "skillsHeading": "Tools I reach for",
+    "skills": ["HTML", "CSS", "JavaScript/TypeScript", "React/Next.js", "Node basics", "Git", "Figma"],
+    "midCta": {
+      "heading": "Let’s kick off a project",
+      "body": "Need a launch-ready site, a product refresh or clarity in your stack? I’ll help ship it.",
+      "cta": "Book a call"
+    },
+    "contact": {
+      "heading": "Let’s talk",
+      "lede": "Prefer an email? contact@pogodin.co.il is always on.",
+      "success": "Message sent! I’ll get back shortly.",
+      "error": "Something went wrong. Try again or email me.",
+      "form": {
+        "name": "Full name",
+        "email": "Email",
+        "message": "Message",
+        "cta": "Send message"
+      }
+    },
+    "social": {
+      "github": "#",
+      "linkedin": "#",
+      "email": "contact@pogodin.co.il"
+    }
+  }
+}
