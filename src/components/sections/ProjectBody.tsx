@@ -10,8 +10,8 @@ export function ProjectBody({ project }: { project: ProjectContent }) {
   return (
     <section className="page-shell py-16">
       <div className="grid gap-10 lg:grid-cols-2">
-        <div className="space-y-6 text-lg leading-8 text-black/80 [&_*]:my-0 [&_*]:text-inherit">
-          <ReactMarkdown className="space-y-4" remarkPlugins={[remarkGfm]}>
+        <div className="prose prose-lg space-y-6 text-lg leading-8 text-black/80">
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {project.bodyForLocale}
           </ReactMarkdown>
         </div>
