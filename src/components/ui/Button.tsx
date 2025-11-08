@@ -3,7 +3,7 @@ import type { ButtonHTMLAttributes, AnchorHTMLAttributes } from "react";
 
 type BaseProps = {
   variant?: "solid" | "ghost" | "muted";
-  size?: "md" | "lg";
+  size?: "sm" | "md" | "lg";
 };
 
 type ButtonProps = BaseProps &
@@ -21,6 +21,7 @@ const variants = {
 };
 
 const sizes = {
+  sm: "px-3 py-1.5 text-xs",
   md: "px-5 py-2 text-sm",
   lg: "px-6 py-3 text-base",
 };

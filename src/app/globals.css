@@ -61,7 +61,13 @@ body::before {
 .page-shell {
   max-width: 1200px;
   margin-inline: auto;
-  padding-inline: 1.5rem;
+  padding-inline: clamp(1rem, 4vw, 1.5rem);
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    padding-inline: 1rem;
+  }
 }
 
 .ltr-fragment {
@@ -256,7 +262,9 @@ body::before {
 @media (max-width: 900px) {
   .hero-shell {
     grid-template-columns: 1fr;
-    padding-block-end: 8rem;
+    padding-block: clamp(2rem, 4vw, 3rem);
+    padding-block-end: 4rem;
+    min-height: auto;
   }
 
   .hero-copy {
@@ -265,12 +273,12 @@ body::before {
 
   .hero-visual {
     order: 1;
-    min-height: 60vh;
+    min-height: 50vh;
   }
 
   .hero-frame {
-    width: min(75vw, 420px);
-    height: min(60vh, 520px);
+    width: min(70vw, 380px);
+    height: min(50vh, 480px);
   }
 
   .hero-shape--dark {
@@ -279,13 +287,49 @@ body::before {
   }
 
   .hero-shape--light {
-    inset: clamp(1.5rem, 8vw, 3rem);
+    inset: clamp(1.5rem, 6vw, 2.5rem);
   }
 
   .hero-portrait {
     left: 50%;
     transform: translateX(-50%) skewX(8deg) scale(1.04);
     transform-origin: bottom center;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 3.5rem);
+  }
+
+  .hero-desc {
+    font-size: clamp(1rem, 3.5vw, 1.2rem);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-shell {
+    padding-block-start: 1.5rem;
+    gap: 2rem;
+  }
+
+  .hero-visual {
+    min-height: 45vh;
+  }
+
+  .hero-frame {
+    width: min(80vw, 340px);
+    height: min(45vh, 420px);
+  }
+
+  .hero-title {
+    font-size: clamp(1.75rem, 7vw, 2.5rem);
+  }
+
+  .hero-eyebrow {
+    font-size: 0.75rem;
+  }
+
+  .hero-copy {
+    gap: 1rem;
   }
 }
 
@@ -319,6 +363,26 @@ body::before {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: clamp(12px, 2vw, 18px);
+}
+
+@media (max-width: 640px) {
+  .tools-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  
+  .tool-card {
+    padding: 14px;
+  }
+  
+  .logo-chip {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .tool-label {
+    font-size: 0.85rem;
+  }
 }
 
 .tool-card {
