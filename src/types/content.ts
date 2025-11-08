@@ -1,13 +1,23 @@
 export type Locale = "he" | "en";
 
+export type HeroOption = {
+  id: string;
+  label: string;
+  headline: string;
+  body: string;
+};
+
+export type HeroCta = {
+  label: string;
+  href: string;
+};
+
 export type HeroCopy = {
-  titleA: string;
-  titleB: string;
-  subtitleA: string;
-  subtitleB: string;
-  primaryCta: string;
-  secondaryCta: string;
+  kicker: string;
+  options: HeroOption[];
+  ctas: HeroCta[];
   hint: string;
+  portraitAlt: string;
 };
 
 export type SiteCopy = {

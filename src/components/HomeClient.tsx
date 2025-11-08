@@ -4,7 +4,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { BandSection } from "@/components/sections/BandSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
-import { SkillsSection } from "@/components/sections/SkillsSection";
+import { ToolsSection } from "@/components/sections/ToolsSection";
 import { ProjectsSection } from "@/components/sections/ProjectsSection";
 import { MidCtaSection } from "@/components/sections/MidCtaSection";
 import { ContactSection } from "@/components/sections/ContactSection";
@@ -29,7 +29,7 @@ function HomeInner({ projectsByLocale }: { projectsByLocale: Record<Locale, Proj
         <BandSection band={copy.band} />
         <AboutSection copy={copy.about} body={about} />
         <ServicesSection title={copy.servicesHeading} services={copy.services} />
-        <SkillsSection heading={copy.skillsHeading} kicker={copy.navigation.skills} skills={copy.skills} />
+        <ToolsSection title={copy.skillsHeading} kicker={copy.navigation.skills} locale={locale} />
         <ProjectsSection title={copy.navigation.projects} projects={projects} locale={locale} />
         <MidCtaSection copy={copy.midCta} />
         <ContactSection copy={copy.contact} email={copy.social.email} />

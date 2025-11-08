@@ -1,136 +1,204 @@
 {
   "he": {
     "siteName": "pogodin.co.il",
-    "owner": "Pogodin",
-    "role": "מפתח פרונט-אנד / מעצב UI",
+    "owner": "Daniel Pogodin",
+    "role": "מהנדס חשמל · מנהל פרויקטים · מומחה AI ואוטומציות",
     "meta": {
-      "title": "pogodin.co.il – מפתח פרונט-אנד / מעצב UI",
-      "description": "פורטפוליו של Pogodin. אתרים ואפליקציות מהירות, נגישות ומדויקות.",
-      "ogImageAlt": "איור שחור-לבן אלכסוני עם טיפוגרפיה מודרנית."
+      "title": "דניאל פוגודין — מהנדס חשמל, מנהל פרויקטים ומומחה ל‑AI ואוטומציות",
+      "description": "אני בונה מערכות AI, אוטומציות ו‑Front-end מהירות שמורידות עומס ידני, משפרות דיוק ומביאות תוצאות מדידות.",
+      "ogImageAlt": "דיוקן של דניאל פוגודין עם מסגרות שחור‑לבן וממשק מודרני."
     },
     "navigation": {
       "about": "עליי",
-      "skills": "כישורים",
-      "projects": "פורטפוליו",
+      "skills": "כלים",
+      "projects": "פרויקטים",
       "contact": "יצירת קשר",
-      "contactCta": "דברו איתי"
+      "contactCta": "קבעו שיחה"
     },
     "hero": {
-      "titleA": "היי, אני פוגודין",
-      "subtitleA": "מפתח פרונט-אנד / מעצב UI. בונה חוויות אינטרנט מהירות, נגישות ונקיות.",
-      "titleB": "יוצר אינטראקציות שמרגישות נכון",
-      "subtitleB": "קוד נקי, מיקרו-אנימציות מדויקות ועיצוב שמדבר בעד עצמו.",
-      "primaryCta": "דברו איתי",
-      "secondaryCta": "לפורטפוליו",
-      "hint": "ריחוף או לחיצה על האיור יחליפו את מצב הצבע והטקסט."
+      "kicker": "AI · אוטומציה · מוצר",
+      "options": [
+        {
+          "id": "sharp",
+          "label": "אפשרות 1 — חד ומקצועי",
+          "headline": "דניאל פוגודין — מהנדס חשמל, מנהל פרויקטים ומומחה ל‑AI ואוטומציות.",
+          "body": "אני מתכנן, בונה ומטמיע פתרונות AI ותהליכי אוטומציה שמקצרים זמן, משפרים איכות ומגדילים הכנסות."
+        },
+        {
+          "id": "product",
+          "label": "אפשרות 2 — מוצרי/ביצועי",
+          "headline": "AI & אוטומציות שמביאות תוצאות.",
+          "body": "אני הופך רעיונות למערכות עובדות: מאפיון ועד הטמעה — עם UX מהיר, חיבורי API ותשתית יציבה."
+        },
+        {
+          "id": "frontend",
+          "label": "אפשרות 3 — עם זיקה לפרונטאנד",
+          "headline": "AI-first Product Builder.",
+          "body": "משלב בין הנדסת חשמל, ניהול פרויקטים ו‑Front‑end מתקדם כדי להוציא מוצרים לשוק מהר ובאיכות."
+        }
+      ],
+      "ctas": [
+        { "label": "קבעו שיחת היכרות", "href": "#contact" },
+        { "label": "ראו פרויקטים", "href": "#projects" },
+        { "label": "צפו בערוץ היוטיוב", "href": "#youtube" }
+      ],
+      "hint": "רחפו, הקישו או השתמשו ב‑Tab/Enter על הפורטרט כדי להפוך את הצבעים והמסרים.",
+      "portraitAlt": "דיוקן של דניאל פוגודין עם מסגרת שחורה ולבנה ברקע."
     },
     "band": {
-      "label": "פרויקטים חיים / תכנון מוצר / דיזיין סיסטם",
-      "cta": "לקריאה נוספת"
+      "label": "AI-first Delivery · אוטומציות · הובלת מוצר",
+      "cta": "איך אני עובד"
     },
     "about": {
-      "heading": "עליי",
-      "lede": "אני בונה אתרים ואפליקציות רספונסיביות עם דגש על חוויית משתמש, ביצועים והנגשה.",
-      "body": "אוהב להפוך סקיצות למוצרים חדים וברורים, עם תשומת לב לפרטים הקטנים." 
+      "heading": "בגובה העיניים",
+      "lede": "אני דניאל פוגודין, בן 30, מהנדס חשמל ומנהל פרויקטים שמומחה ב‑AI ואוטומציות.",
+      "body": "בעזרת חשיבה הנדסית, חיבורי API ותהליכי עבודה חכמים אני בונה חוויות דיגיטליות מהירות ומערכות AI שמורידות עומס ידני, משפרות דיוק ומביאות תוצאות מדידות — משלב האסטרטגיה ועד העלאה לפרודקשן והדרכת הצוות."
     },
-    "servicesHeading": "איך אני עוזר",
+    "servicesHeading": "איך אני יכול לעזור",
     "services": [
-      "אתרי תדמית ונחיתה",
-      "פיתוח פרונט-אנד לאפליקציות (SPA/SSR)",
-      "UI/UX – חוטי תיל, דיזיין-סיסטם, פרוטוטיפים",
-      "שיפור ביצועים והנגשה",
-      "ליווי טכנולוגי והטמעה"
+      "AI & אוטומציות — סוכני AI וממשקי עוזר, תהליכי RAG, Guardrails ואוטומציה של Sales/Support/Ops.",
+      "אינטגרציות ותשתית — חיבורי API, טריגרים ותורים; Make/Zapier/n8n, Python/Node ותשתיות Serverless עם ניטור.",
+      "Front-end ומוצר — React/Next.js ביצועי, נגיש כברירת מחדל, Design Systems ותיעוד הנדסי.",
+      "ניהול פרויקט והטמעה — אפיון, Milestones, KPIs, עבודה עם צוותי פיתוח/עיצוב/מרקטינג ו‑QA.",
+      "הדרכות ו‑Enablement — סדנאות AI, פלייבוקים, פרקטיקות אבטחת מידע וליווי הטמעה בארגון."
     ],
-    "skillsHeading": "טכנולוגיות שאני אוהב",
-    "skills": ["HTML", "CSS", "JavaScript/TypeScript", "React/Next.js", "Node בסיסי", "Git", "Figma"],
+    "skillsHeading": "כלים שאני עובד איתם",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React/Next.js",
+      "Node.js",
+      "Make",
+      "Zapier",
+      "n8n",
+      "REST/GraphQL",
+      "PostgreSQL/Vector DBs",
+      "Vercel/AWS/GCP",
+      "Git",
+      "Figma"
+    ],
     "midCta": {
-      "heading": "בואו נתחיל פרויקט",
-      "body": "יש לכם רעיון חי, מוצר שצריך רענון או תהליך מבולגן? נעשה סדר ביחד.",
-      "cta": "תיאום שיחה"
+      "heading": "צריכים להרים פיילוט AI?",
+      "body": "נמפה מטרות, נבנה פתרון מדיד ונשיק גרסה עובדת — ואם זה פוגע ביעד, נגדיל יחד.",
+      "cta": "התחילו פיילוט"
     },
     "contact": {
-      "heading": "בואו נדבר",
-      "lede": "מעדיפים מייל ישיר? contact@pogodin.co.il תמיד פתוח.",
-      "success": "ההודעה נשלחה! אחזור אליכם בהקדם.",
-      "error": "משהו השתבש. נסו שוב או כתבו לי במייל.",
+      "heading": "מחפשים ליישם AI או לאוטומט תהליך עסקי?",
+      "lede": "כתבו לי: hi@yourdomain.com · או קבעו שיחה ביומן. נשיק פרויקט קטן לפיילוט — ואם זה עובד, נגדיל יחד.",
+      "success": "ההודעה נשלחה! נחזור אליכם עם תיאום שיחה קצרה.",
+      "error": "משהו השתבש. נסו שוב או שלחו מייל ל‑hi@yourdomain.com.",
       "form": {
         "name": "שם מלא",
         "email": "אימייל",
-        "message": "הודעה",
-        "cta": "שליחת הודעה"
+        "message": "איך אוכל לעזור?",
+        "cta": "קבעו שיחת היכרות"
       }
     },
     "social": {
-      "github": "#",
-      "linkedin": "#",
-      "email": "contact@pogodin.co.il"
+      "github": "https://github.com/dncar13",
+      "linkedin": "https://www.linkedin.com/in/daniel-pogodin-07477a190/",
+      "email": "dncar13@gmail.com"
     }
   },
   "en": {
     "siteName": "pogodin.co.il",
-    "owner": "Pogodin",
-    "role": "Front-end developer / UI designer",
+    "owner": "Daniel Pogodin",
+    "role": "Electrical engineer · Project lead · AI & Automation expert",
     "meta": {
-      "title": "pogodin.co.il – Front-end engineer & UI designer",
-      "description": "Portfolio by Pogodin. Fast, accessible and precise web experiences.",
-      "ogImageAlt": "Diagonal black and white composition with confident typography."
+      "title": "Daniel Pogodin — Electrical engineer, project lead & AI/Automation expert",
+      "description": "I design, build and deploy AI-powered systems, automations and front-end UX that reduce manual work, improve accuracy and ship faster.",
+      "ogImageAlt": "Portrait of Daniel Pogodin framed by bold black and white panels."
     },
     "navigation": {
       "about": "About",
-      "skills": "Skills",
+      "skills": "Tooling",
       "projects": "Projects",
       "contact": "Contact",
-      "contactCta": "Say hello"
+      "contactCta": "Book a call"
     },
     "hero": {
-      "titleA": "Hey, I'm Pogodin",
-      "subtitleA": "Front-end developer & UI designer crafting fast, accessible products.",
-      "titleB": "I design interactions that simply feel right",
-      "subtitleB": "Clean code, precise micro-animations and purposeful design.",
-      "primaryCta": "Say hello",
-      "secondaryCta": "View work",
-      "hint": "Hover, focus or press Enter on the portrait to invert the layout."
+      "kicker": "AI · Automation · Product",
+      "options": [
+        {
+          "id": "sharp",
+          "label": "Option 1 — Sharp & professional",
+          "headline": "Daniel Pogodin — Electrical engineer, project lead and AI/automation expert.",
+          "body": "I plan, build and deploy AI solutions and automations that shorten timelines, improve quality and grow revenue."
+        },
+        {
+          "id": "product",
+          "label": "Option 2 — Product / performance",
+          "headline": "AI & automations that ship results.",
+          "body": "I turn ideas into working systems — from discovery to rollout — with fast UX, API integrations and resilient infrastructure."
+        },
+        {
+          "id": "frontend",
+          "label": "Option 3 — Front-end aware",
+          "headline": "AI-first product builder.",
+          "body": "Blending electrical engineering, project leadership and advanced front-end to launch high-quality products faster."
+        }
+      ],
+      "ctas": [
+        { "label": "Book an intro call", "href": "#contact" },
+        { "label": "See projects", "href": "#projects" },
+        { "label": "Watch the YouTube channel", "href": "#youtube" }
+      ],
+      "hint": "Hover, tap or press Enter on the portrait to invert the palette and statements.",
+      "portraitAlt": "Portrait of Daniel Pogodin framed by clean black and white shapes."
     },
     "band": {
-      "label": "Live products / Product strategy / Design systems",
-      "cta": "Read more"
+      "label": "AI-first delivery · Automations · Product leadership",
+      "cta": "See the approach"
     },
     "about": {
-      "heading": "About",
-      "lede": "I build responsive websites and apps with a focus on UX, performance and accessibility.",
-      "body": "I love turning sketches into sharp, opinionated products with attention to detail."
+      "heading": "In short",
+      "lede": "I’m Daniel Pogodin — electrical engineer and project lead focused on AI and automations.",
+      "body": "With engineering thinking, API integrations and lean workflows I build fast digital experiences and AI systems that cut manual work, improve accuracy and deliver measurable results — from strategy to production and team training."
     },
     "servicesHeading": "How I can help",
     "services": [
-      "Marketing and landing sites",
-      "Front-end development for apps (SPA/SSR)",
-      "UI/UX – wireframes, design systems, prototypes",
-      "Performance and accessibility optimization",
-      "Technical guidance and onboarding"
+      "AI & Automations — AI agents, assistant UIs, RAG pipelines, guardrails and workflow automation for Sales/Support/Ops.",
+      "Integrations & Infrastructure — API connections, triggers, queues, Make/Zapier/n8n, Python/Node and monitored serverless stacks.",
+      "Front-end & Product — High-performance React/Next.js, accessibility by default, design systems and engineering documentation.",
+      "Project leadership & rollout — Specs, milestones, KPIs, cross-team collaboration and QA runs.",
+      "Training & Enablement — Practical AI workshops, playbooks, security/privacy practices and adoption support."
     ],
-    "skillsHeading": "Tools I reach for",
-    "skills": ["HTML", "CSS", "JavaScript/TypeScript", "React/Next.js", "Node basics", "Git", "Figma"],
+    "skillsHeading": "Tools I ship with",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React/Next.js",
+      "Node.js",
+      "Make",
+      "Zapier",
+      "n8n",
+      "REST/GraphQL",
+      "PostgreSQL/Vector DBs",
+      "Vercel/AWS/GCP",
+      "Git",
+      "Figma"
+    ],
     "midCta": {
-      "heading": "Let’s kick off a project",
-      "body": "Need a launch-ready site, a product refresh or clarity in your stack? I’ll help ship it.",
-      "cta": "Book a call"
+      "heading": "Need an AI pilot?",
+      "body": "Let’s scope goals, stand up a measurable solution and launch. If it works, we scale together.",
+      "cta": "Start a pilot"
     },
     "contact": {
-      "heading": "Let’s talk",
-      "lede": "Prefer an email? contact@pogodin.co.il is always on.",
-      "success": "Message sent! I’ll get back shortly.",
-      "error": "Something went wrong. Try again or email me.",
+      "heading": "Ready to apply AI or automate a core flow?",
+      "lede": "Drop a line at hi@yourdomain.com or book time. We’ll launch a focused pilot and double down once it delivers.",
+      "success": "Message received — I’ll reply with a short scheduling link.",
+      "error": "Something went wrong. Try again or email hi@yourdomain.com.",
       "form": {
         "name": "Full name",
         "email": "Email",
-        "message": "Message",
-        "cta": "Send message"
+        "message": "How can I help?",
+        "cta": "Book an intro call"
       }
     },
     "social": {
-      "github": "#",
-      "linkedin": "#",
-      "email": "contact@pogodin.co.il"
+      "github": "https://github.com/dncar13",
+      "linkedin": "https://www.linkedin.com/in/daniel-pogodin-07477a190/",
+      "email": "dncar13@gmail.com"
     }
   }
 }
