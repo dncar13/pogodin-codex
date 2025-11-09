@@ -42,7 +42,7 @@
         { "label": "ראו פרויקטים", "href": "#projects" },
         { "label": "צפו בערוץ היוטיוב", "href": "#youtube" }
       ],
-      "hint": "רחפו, הקישו או השתמשו ב‑Tab/Enter על הפורטרט כדי להפוך את הצבעים והמסרים.",
+      "hint": "",
       "portraitAlt": "דיוקן של דניאל פוגודין עם מסגרת שחורה ולבנה ברקע."
     },
     "band": {
@@ -143,7 +143,7 @@
         { "label": "See projects", "href": "#projects" },
         { "label": "Watch the YouTube channel", "href": "#youtube" }
       ],
-      "hint": "Hover, tap or press Enter on the portrait to invert the palette and statements.",
+      "hint": "",
       "portraitAlt": "Portrait of Daniel Pogodin framed by clean black and white shapes."
     },
     "band": {

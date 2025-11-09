@@ -264,7 +264,9 @@ body::before {
     grid-template-columns: 1fr;
     padding-block: clamp(2rem, 4vw, 3rem);
     padding-block-end: 4rem;
-    min-height: auto;
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
   }
 
   .hero-copy {
@@ -273,12 +275,19 @@ body::before {
 
   .hero-visual {
     order: 1;
-    min-height: 50vh;
+    display: grid;
+    place-items: center;
   }
 
   .hero-frame {
-    width: min(70vw, 380px);
-    height: min(50vh, 480px);
+    position: relative;
+    /* Smart sizing: works for both tall and short phones */
+    --ratio: 0.625;  /* width/height ratio (5/8) */
+    --target-h: min(78svh, 680px);
+    --target-w: min(92vw, calc(var(--target-h) * var(--ratio)));
+    
+    width: var(--target-w);
+    height: calc(var(--target-w) / var(--ratio));
   }
 
   .hero-shape--dark {
@@ -287,13 +296,19 @@ body::before {
   }
 
   .hero-shape--light {
-    inset: clamp(1.5rem, 6vw, 2.5rem);
+    inset: 0;
+    overflow: hidden;
   }
 
   .hero-portrait {
-    left: 50%;
-    transform: translateX(-50%) skewX(8deg) scale(1.04);
-    transform-origin: bottom center;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Always large, allows cropping */
+    object-position: 50% 65%;  /* Centers face in middle-bottom */
+    transform: skewX(8deg) scale(1.04);  /* Counter-skew + slight overscan */
+    will-change: transform;
   }
 
   .hero-title {
@@ -311,13 +326,8 @@ body::before {
     gap: 2rem;
   }
 
-  .hero-visual {
-    min-height: 45vh;
-  }
-
   .hero-frame {
-    width: min(80vw, 340px);
-    height: min(45vh, 420px);
+    --target-h: min(75svh, 640px);
   }
 
   .hero-title {
@@ -330,6 +340,20 @@ body::before {
 
   .hero-copy {
     gap: 1rem;
+  }
+}
+
+/* Extra small devices - reduce slightly */
+@media (max-width: 360px) {
+  .hero-frame {
+    --target-h: min(72svh, 620px);
+  }
+}
+
+/* Landscape mode - don't overdo height */
+@media (orientation: landscape) and (max-width: 900px) {
+  .hero-frame {
+    --target-h: min(88svh, 520px);
   }
 }
 
