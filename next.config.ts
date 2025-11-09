@@ -22,16 +22,7 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  async redirects() {
-    return [
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.pogodin.co.il" }],
-        destination: "https://pogodin.co.il/:path*",
-        permanent: true,
-      },
-    ];
-  },
+  // Removed redirects to avoid conflict with Netlify's domain redirect
 };
 
 export default nextConfig;
